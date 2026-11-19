@@ -1,0 +1,20 @@
+{
+  "organization": "Elevate Bootcamp",
+  "mode": "development",
+  "drive": {
+    "root_folder_id": "REPLACE_WITH_FOLDER_ID",
+    "read_only": true
+  },
+  "ghl": {
+    "location_id": "REPLACE_WITH_GHL_LOCATION_ID",
+    "enabled": false
+  },
+  "notifications": {
+    "student_email_enabled": false,
+    "requires_instructor_approval": true
+  },
+  "grading": {
+    "official_rubric_required": true,
+    "release_requires_instructor_approval": true
+  }
+}

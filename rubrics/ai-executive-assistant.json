@@ -1,0 +1,46 @@
+{
+  "rubric_id": "ai-executive-assistant",
+  "title": "Ai Executive Assistant",
+  "version": "0.1.0-draft",
+  "approval_status": "proposed_not_approved",
+  "total_points": 100,
+  "passing_points_provisional": 72,
+  "criteria": [
+    {
+      "id": "organization",
+      "name": "Executive workflow organization",
+      "max_points": 25,
+      "description": "Prioritization, calendars, task planning and clarity."
+    },
+    {
+      "id": "ai_use",
+      "name": "Responsible AI/tool proficiency",
+      "max_points": 25,
+      "description": "Effective prompts, checks, privacy and appropriate tool selection."
+    },
+    {
+      "id": "communication",
+      "name": "Professional communication",
+      "max_points": 20,
+      "description": "Tone, accuracy, formatting and audience awareness."
+    },
+    {
+      "id": "reliability",
+      "name": "Quality control and escalation",
+      "max_points": 15,
+      "description": "Accuracy, verification and handling uncertainty."
+    },
+    {
+      "id": "completion",
+      "name": "Assignment completeness",
+      "max_points": 15,
+      "description": "Required artifacts, evidence and instructions."
+    }
+  ],
+  "scoring_rules": {
+    "minimum_per_criterion": 0,
+    "integers_only": true,
+    "missing_evidence": "escalate_for_manual_review",
+    "certification": "never_automatic"
+  }
+}

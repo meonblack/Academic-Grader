@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/elevate/grade-report.schema.json",
+  "title": "Elevate Grading Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "report_id",
+    "student_id",
+    "track",
+    "cohort",
+    "week",
+    "assignment_id",
+    "rubric_id",
+    "rubric_version",
+    "status",
+    "deliverables",
+    "criteria_scores",
+    "strengths",
+    "improvements",
+    "next_steps",
+    "approved_by",
+    "approved_at",
+    "released_at"
+  ],
+  "properties": {
+    "report_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "student_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "track": {
+      "type": "string"
+    },
+    "cohort": {
+      "type": "string"
+    },
+    "week": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6
+    },
+    "assignment_id": {
+      "type": "string"
+    },
+    "rubric_id": {
+      "type": "string"
+    },
+    "rubric_version": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "needs_evidence",
+        "pending_instructor_review",
+        "revision_requested",
+        "approved",
+        "released",
+        "sync_failed"
+      ]
+    },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "status",
+          "evidence_refs"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "submitted",
+              "missing",
+              "inaccessible",
+              "not_applicable"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "criteria_scores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "criterion_id",
+          "points",
+          "justification",
+          "evidence_refs"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string"
+          },
+          "points": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "justification": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "strengths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "improvements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_steps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approved_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approved_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "released_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  }
+}

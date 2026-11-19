@@ -1,0 +1,46 @@
+{
+  "rubric_id": "digital-marketing-operator",
+  "title": "Digital Marketing Operator",
+  "version": "0.1.0-draft",
+  "approval_status": "proposed_not_approved",
+  "total_points": 100,
+  "passing_points_provisional": 72,
+  "criteria": [
+    {
+      "id": "research",
+      "name": "Audience and market research",
+      "max_points": 20,
+      "description": "Insightful segmentation, positioning and relevant evidence."
+    },
+    {
+      "id": "strategy",
+      "name": "Campaign strategy",
+      "max_points": 25,
+      "description": "Objectives, channel strategy, messaging and funnel logic."
+    },
+    {
+      "id": "execution",
+      "name": "Execution and tracking setup",
+      "max_points": 25,
+      "description": "Correct campaign assets, tracking, testing and implementation."
+    },
+    {
+      "id": "analytics",
+      "name": "Metrics and optimization",
+      "max_points": 15,
+      "description": "KPI reasoning, interpretation and proposed improvements."
+    },
+    {
+      "id": "completion",
+      "name": "Requirements and documentation",
+      "max_points": 15,
+      "description": "Complete deliverables and reproducible evidence."
+    }
+  ],
+  "scoring_rules": {
+    "minimum_per_criterion": 0,
+    "integers_only": true,
+    "missing_evidence": "escalate_for_manual_review",
+    "certification": "never_automatic"
+  }
+}

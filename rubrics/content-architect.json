@@ -1,0 +1,46 @@
+{
+  "rubric_id": "content-architect",
+  "title": "Content Architect",
+  "version": "0.1.0-draft",
+  "approval_status": "proposed_not_approved",
+  "total_points": 100,
+  "passing_points_provisional": 72,
+  "criteria": [
+    {
+      "id": "strategy",
+      "name": "Audience and content strategy",
+      "max_points": 25,
+      "description": "Purpose, target audience and strategic alignment."
+    },
+    {
+      "id": "creative",
+      "name": "Creative execution",
+      "max_points": 25,
+      "description": "Quality, originality, readability and visual/copy consistency."
+    },
+    {
+      "id": "production",
+      "name": "Production workflow and tools",
+      "max_points": 20,
+      "description": "Effective workflow, AI/tool use and revisions."
+    },
+    {
+      "id": "measurement",
+      "name": "Distribution and measurement",
+      "max_points": 15,
+      "description": "Publishing plan, channel fit and success metrics."
+    },
+    {
+      "id": "completion",
+      "name": "Requirements and evidence",
+      "max_points": 15,
+      "description": "Submitted assets and all required deliverables."
+    }
+  ],
+  "scoring_rules": {
+    "minimum_per_criterion": 0,
+    "integers_only": true,
+    "missing_evidence": "escalate_for_manual_review",
+    "certification": "never_automatic"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rubric_id": "core-25",
+  "title": "General academic project rubric",
+  "version": "0.1.0-draft",
+  "approval_status": "proposed_not_approved",
+  "total_points": 25,
+  "passing_points_provisional": 18,
+  "criteria": [
+    {
+      "id": "workflow_design",
+      "name": "Workflow design and logic",
+      "max_points": 5,
+      "description": "Assess demonstrated evidence against the assigned task requirements."
+    },
+    {
+      "id": "tool_usage",
+      "name": "Tool usage and integration",
+      "max_points": 5,
+      "description": "Assess demonstrated evidence against the assigned task requirements."
+    },
+    {
+      "id": "problem_solving",
+      "name": "Problem-solving and systems thinking",
+      "max_points": 5,
+      "description": "Assess demonstrated evidence against the assigned task requirements."
+    },
+    {
+      "id": "communication",
+      "name": "Clarity and communication",
+      "max_points": 5,
+      "description": "Assess demonstrated evidence against the assigned task requirements."
+    },
+    {
+      "id": "completeness",
+      "name": "Assignment completeness",
+      "max_points": 5,
+      "description": "Assess demonstrated evidence against the assigned task requirements."
+    }
+  ],
+  "scoring_rules": {
+    "minimum_per_criterion": 0,
+    "integers_only": true,
+    "missing_evidence": "escalate_for_manual_review",
+    "certification": "never_automatic"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "report_id": "demo-grade-001",
+  "student_id": "fictional-student-001",
+  "track": "productivity-engineer",
+  "cohort": "demo-cohort",
+  "week": 1,
+  "assignment_id": "demo-assignment",
+  "rubric_id": "core-25",
+  "rubric_version": "0.1.0-draft",
+  "status": "pending_instructor_review",
+  "deliverables": [
+    {
+      "name": "Demo workflow document",
+      "status": "submitted",
+      "evidence_refs": [
+        "drive-file-demo-001"
+      ]
+    }
+  ],
+  "criteria_scores": [
+    {
+      "criterion_id": "workflow_design",
+      "points": 4,
+      "justification": "Fictional example: observed evidence supports this draft score; instructor verification required.",
+      "evidence_refs": [
+        "drive-file-demo-001"
+      ]
+    },
+    {
+      "criterion_id": "tool_usage",
+      "points": 4,
+      "justification": "Fictional example: observed evidence supports this draft score; instructor verification required.",
+      "evidence_refs": [
+        "drive-file-demo-001"
+      ]
+    },
+    {
+      "criterion_id": "problem_solving",
+      "points": 4,
+      "justification": "Fictional example: observed evidence supports this draft score; instructor verification required.",
+      "evidence_refs": [
+        "drive-file-demo-001"
+      ]
+    },
+    {
+      "criterion_id": "communication",
+      "points": 3,
+      "justification": "Fictional example: observed evidence supports this draft score; instructor verification required.",
+      "evidence_refs": [
+        "drive-file-demo-001"
+      ]
+    },
+    {
+      "criterion_id": "completeness",
+      "points": 4,
+      "justification": "Fictional example: observed evidence supports this draft score; instructor verification required.",
+      "evidence_refs": [
+        "drive-file-demo-001"
+      ]
+    }
+  ],
+  "strengths": [
+    "Demonstrates a clear workflow outline (fictional sample)."
+  ],
+  "improvements": [
+    "Add a clearer testing log."
+  ],
+  "next_steps": [
+    "Instructor to review and confirm the evidence."
+  ],
+  "approved_by": null,
+  "approved_at": null,
+  "released_at": null
+}
